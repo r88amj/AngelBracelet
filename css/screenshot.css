@@ -1,0 +1,42 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-full-mobile {
+  position: relative;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  }
+  
+  .swiper-full-mobile:before {
+  content: "";
+  width: 265px;
+  background: url('../img/mockups/s9-mockup.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  height: 565px;
+  z-index: 2;
+  margin: auto;
+  }
+  .swiper-full-mobile .swiper-slide {
+  height: 565px;
+  text-align: center;
+  }
+  .swiper-full-mobile .swiper-slide img{
+    width: 230px;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  .swiper-slide.swiper-slide-active img {
+  width: 230px;
+  height: 470px;
+  border-radius: 20px;
+  margin-top: 50px;
+  }

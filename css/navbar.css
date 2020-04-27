@@ -1,0 +1,51 @@
+.navbar{
+    box-shadow: none;
+    padding: 0 5%;
+    width: 100%;
+  }
+  
+  .top-nav-collapse {
+    background-color: #45b9f2 !important;
+    width: 100% !important;
+  }
+  
+  .navbar .navbar-brand img{
+      height: 3rem;
+  }
+  
+  
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+    width: 100%;
+  }
+  
+  
+  .navbar ul li a:hover{
+    color: #032d42 !important;
+  }
+  
+  
+  .navbar-collapse ul li {
+    display: block;
+    text-align: center;
+  }
+  
+  
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: #45b9f2 !important;
+    width: 100%;
+   }
+  }
+
+.rgba-gradient {
+    background: #1193d4 none repeat scroll 0 0;
+  }
+  
+  @media screen and (min-width:1024px){
+    .navbar ul li{
+      font-size: 22px;
+    }
+    
+  }
+  

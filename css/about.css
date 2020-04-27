@@ -1,0 +1,21 @@
+#about{
+padding: 0 30px;
+}
+
+#about .img-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    #about{
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    #about p{
+        font-size: 20px;
+    }
+}

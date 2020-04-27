@@ -1,0 +1,59 @@
+
+#contact .img-contact{
+    background: #45b9f2;
+  }
+  
+  .logo-contact{
+    display: table;
+  }
+  
+  .logo-contact img{
+    display: table-cell;
+      vertical-align: middle;
+  }
+  
+
+.right-contact .cnt_form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-contact input, .right-contact textarea{
+    width: 300px;
+}
+
+
+.right-contact button{
+  border-radius: 20px;
+  background: #1193d4 !important;
+  border: 1px solid white;
+  color: white !important;
+  font-size: 20px;
+}
+
+.right-contact button:hover{
+  border-radius: 20px;
+  background:  white !important;
+  border: 1px solid #1193d4;
+  color: #1193d4 !important;
+}
+
+@media screen and (min-width:1024px){
+    .right-contact input, .right-contact textarea{
+        width: 500px;
+    }
+     
+}
+
+@media screen and (min-width:1440px) {
+  #download h1 {
+      font-size: 45px;
+      line-height: 70px;
+  }
+
+  #download a {
+      font-size: 30px;
+  }
+}

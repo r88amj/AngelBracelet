@@ -1,0 +1,45 @@
+#features {
+    padding: 0 30px;
+}
+
+
+
+@media screen and (max-width:766.5px) {
+    #features .img-app img {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:767.5px) and (max-width:991.5px) {
+    #features .img-app img {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    #features{
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width:992px){
+    #features2{
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    #features h5 {
+        font-size: 25px;
+    }
+
+    #features p {
+        font-size: 20px;
+    }
+
+    #features2{
+        margin-top: 200px;
+    }
+}

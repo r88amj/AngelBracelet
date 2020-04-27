@@ -1,0 +1,105 @@
+
+
+
+.page-footer {
+    background: #1193d4 none repeat scroll 0 0;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    margin: 0;
+    padding: 80px 0;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  
+  .page-footer .footer-title {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  .page-footer .row {
+    margin-bottom: 50px;
+  }
+  
+  .page-footer .row h5 {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px #131313;
+  }
+  
+  .page-footer .row h6,
+  .page-footer .row a {
+    font-size: 15px;
+    color: white;
+  }
+  
+  .page-footer .logoDw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .page-footer .social-networks h5 {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px #131313;
+  }
+  
+  
+  .page-footer .social-networks .socialIcons{
+    padding: 50px 0;
+  }
+  
+  .page-footer .footer-copyright{
+    color: white;
+  }
+  
+  .page-footer .footer-copyright a{
+    color: white;
+  }
+  
+  @media screen and (min-width:768px) {
+  
+    .page-footer .container-fluid{
+      padding: 0 50px;
+  }
+
+    .page-footer .row h5 {
+        font-size: 22px;
+    }
+    
+    .page-footer .row h6,
+    .page-footer .row a {
+        font-size: 15px;
+    }
+    
+    .page-footer .social-networks h5 {
+        font-size: 22px;
+    }
+  }
+  
+  
+  @media screen and (min-width:1440px) {
+  
+    
+    .page-footer .row h5 {
+        font-size: 30px;
+    }
+    
+    .page-footer .row h6,
+    .page-footer .row a {
+        font-size: 20px;
+    }
+    
+    .page-footer .social-networks h5 {
+        font-size: 30px;
+    }
+  }
+
+
